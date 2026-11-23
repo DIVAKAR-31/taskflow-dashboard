@@ -1,0 +1,26 @@
+{
+  "name": "taskflow-root",
+  "version": "1.0.0",
+  "description": "TaskFlow - Project Management Dashboard (MERN Stack)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend dev",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend test",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "mern",
+    "project-management",
+    "kanban",
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "TaskFlow Team",
+  "license": "ISC"
+}
